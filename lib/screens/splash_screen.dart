@@ -44,5 +44,14 @@ Widget splashScreenIcon() {
   //   iconPath,
   // );
   return
-  Text("MARKETMATE",style: TextStyle(fontSize: 40,fontWeight: FontWeight.bold,color: Colors.white),);
+  Center(
+    child: Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Icon(Icons.shopping_cart_checkout_outlined,size: 100,color: Colors.white,),
+        SizedBox(height: 20,),
+        Text("MARKETMATE",style: TextStyle(fontSize: 40,fontWeight: FontWeight.bold,color: Colors.white),),
+      ],
+    ),
+  );
 }
