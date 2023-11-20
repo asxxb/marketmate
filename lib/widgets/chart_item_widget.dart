@@ -77,7 +77,7 @@ class _ChartItemWidgetState extends State<ChartItemWidget> {
                 Container(
                   width: 70,
                   child: AppText(
-                    text: "\$${getPrice().toStringAsFixed(2)}",
+                    text: "\Rs ${getPrice().toStringAsFixed(2)}",
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
                     textAlign: TextAlign.right,
