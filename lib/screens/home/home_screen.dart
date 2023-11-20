@@ -19,10 +19,10 @@ class HomeScreen extends StatelessWidget {
             child: Center(
               child: Column(
                 children: [
-                  SizedBox(
-                    height: 15,
-                  ),
-                  SvgPicture.asset("assets/icons/app_icon_color.svg"),
+                  // SizedBox(
+                  //   height: 15,
+                  // ),
+                  // SvgPicture.asset("assets/icons/app_icon_color.svg"),
                   SizedBox(
                     height: 5,
                   ),
